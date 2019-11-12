@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filter List</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css"> a { text-decoration:none } </style> 
+    <style type="text/css"> a { color: black } </style> 
+</head>
+<body>
+    <div class="container">
+        <h2><a href="JavaScript:window.location.reload()">Colors</a></h2>
+        
+        <input type="text" id="myInput" onkeyup="myFilter()" placeholder="Search for colors...">
+        <ul id="myUL">
+            <li><a href="#" onclick="myUL()">Red</a></li>
+            <li><a href="#">Blue</a></li>
+            <li><a href="#">Green</a></li>
+            <li><a href="#">Yellow</a></li>
+            <li><a href="#">Orange</a></li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        document.getElementById('myInput').focus();
+    </script>
+</body>
+</html>
